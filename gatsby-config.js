@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Test`,
+    title: `Pandas Eating Lots`,
     description: `Just playing around with Gatsby for the first time!`,
     author: `Julian Napolitan`,
   },
   plugins: [
+    `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
